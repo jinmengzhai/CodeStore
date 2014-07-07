@@ -11,12 +11,10 @@ package info.zhaijm2014.tools.codestore.things;
 
 /**
  * ClassName:Code <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
  * Date: 2014年7月7日 下午11:24:04 <br/>
  * 
  * @author zhaijm
- * @version
+ * @version 0
  * @since JDK 1.6
  * @see
  */
@@ -25,6 +23,13 @@ public class Code {
 	private String textType;
 	private String textStyle;
 
+	/**
+	 * format:格式化代码 <br/>
+	 * 若未指定textStyle，默认按照纯文本格式。<br/>
+	 *
+	 * @author zhaijm
+	 * @since JDK 1.6
+	 */
 	public void format() {
 
 	}
